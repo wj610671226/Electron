@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <button id="getWinInfo">获取窗口信息</button>
+    <button id="transwin">无边框和透明窗口</button>
+    <button id="lockWin">锁定模式的窗口</button>
+    <button id="seticon">设置窗口图标(windows有效)</button>
+    <button id="loadWin">优雅的加载窗口</button>
+    <button id="parentWin">父子窗口</button>
+    <button id="modalWin">模态窗口</button>
+    <br/>
+    <button id="createWin">创建多个窗口</button>
+    <button id="closeWin">关闭多个窗口</button>
+    <br/>
+    <button id="openChildWin">打开子窗口并传递数据</button>
+    <br/>
+    <button id="openDialog">打开对话框</button>
+    <button id="saveDialog">保存对话框</button>
+    <button id="messageDialog">消息对话框</button>
+    <button id="errorDialog">错误对话框</button>
+    <button id="openWin">win.open打开子窗口</button>
+    <button id="openWebWin">窗口中嵌入webView</button>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
